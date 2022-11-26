@@ -217,7 +217,7 @@ ul {
   justify-content: center;
   flex-direction: column;
 }
-.landing .landing-title > div {
+.landing .landing-title .sub-title {
   position: relative;
   width: fit-content;
   font-weight: 500;
@@ -225,19 +225,19 @@ ul {
   color: transparent;
   animation: text_reveal 0.5s ease forwards;
 }
-.landing .landing-title > div:first-child {
+.landing .landing-title > .sub-title:first-child {
   animation-delay: 1s;
 }
-.landing .landing-title > div:nth-child(2) {
+.landing .landing-title > .sub-title:nth-child(2) {
   animation-delay: 2s;
 }
-.landing .landing-title > div:last-child {
+.landing .landing-title > .sub-title:last-child {
   animation-delay: 3s;
 }
-.landing .landing-title > div:last-child {
+.landing .landing-title > .sub-title:last-child {
   animation-name: last_text_reveal;
 }
-.landing .landing-title > div span {
+.landing .landing-title > .sub-title span {
   position: absolute;
   top: 0;
   left: 0;
@@ -246,13 +246,13 @@ ul {
   background-color: var(--main-clr);
   animation: text_reveal_box 1s ease;
 }
-.landing .landing-title > div:first-child span {
+.landing .landing-title > .sub-title:first-child span {
   animation-delay: 0.5s;
 }
-.landing .landing-title > div:nth-child(2) span {
+.landing .landing-title > .sub-title:nth-child(2) span {
   animation-delay: 1.5s;
 }
-.landing .landing-title > div:last-child span {
+.landing .landing-title > .sub-title:last-child span {
   animation-delay: 2.5s;
 }
 .services {
@@ -714,7 +714,7 @@ ul {
     font-weight: 300;
     font-size: 60px;
   }
-  .landing .landing-title > div {
+  .landing .landing-title > .sub-title {
     font-size: 70px;
   }
   .services .srvs {
